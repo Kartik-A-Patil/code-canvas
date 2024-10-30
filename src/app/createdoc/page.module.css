@@ -1,0 +1,65 @@
+
+
+.topBar{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: space-between;
+  }
+  .jsButton,.cssButton, .htmlButton, .playButton, .closeButton {
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    margin: 5px 4px;
+  }
+  .jsButton:disabled,.cssButton:disabled, .htmlButton:disabled {
+    background-color: #2c2c2c;
+    border-bottom: 1px solid #804200;
+  }
+  
+  .htmlButton svg{
+    color: rgb(248, 48, 48);
+  }
+  
+  .cssButton svg{
+    color: rgb(21, 130, 255);
+  }
+  
+  .jsButton svg{
+    color: rgb(243, 243, 16);
+  }
+
+  .jsButton div,.htmlButton div, .cssButton div, .playButton div, .closeButton div {
+    padding-right: 2px;
+    margin: 1px;
+  }
+  
+  .split{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .editor {
+    position: absolute;
+  }
+  
+  .outputiframewindow {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(19, 19, 19);
+    margin:0px 0px 10px 0px;
+    border-radius: 7px;
+  }
+  
+  .websiteWindow{
+    z-index: 1;
+  }
+  
+  .buttonBlock {
+    background-color: #F0F4F4;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
+  }
